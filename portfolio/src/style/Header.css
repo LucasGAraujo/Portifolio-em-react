@@ -1,0 +1,42 @@
+.header{
+    height:8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header--menu_one{
+    width: 25%;
+    list-style: none;
+    font-size: 1.0rem;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.header--menu_two{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    list-style: none;
+    font-size: 1.8rem;
+    color: beige;
+    font-weight: 700;
+    
+}
+.header--menu_a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.header li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #025c94;
+}
+.header li:hover::after {
+    content: ''; /* adiciona conteúdo vazio após o link */
+  display: block; /* define como bloco */
+  position: absolute; /* define a posição absoluta em relação ao link */
+  width: 40%; /* define a largura como 100% do link */
+  height: 2px; /* define a altura da linha */
+  bottom: 10; /* posiciona a linha na parte inferior do link */
+  background-color: #ffffff; /* define a cor da linha */
+  }

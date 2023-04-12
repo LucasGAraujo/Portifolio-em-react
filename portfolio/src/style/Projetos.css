@@ -1,0 +1,20 @@
+.Projetos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.Projetosh2{
+    font-size: 2.9rem;
+}
+.geral{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+
+
+

@@ -1,0 +1,32 @@
+.linha{
+height: 100vh;
+  border-left: 1px solid #ccc;
+  position: fixed;
+  top: 90%;
+  left: 97%;
+  transform: translateX(-50%);}
+  
+  .section-title {
+    color: white;
+    position: fixed;
+    writing-mode: vertical-rl;
+    text-align: end;
+    left: 96.5%;
+    top: 70%;
+  }
+  .linha-direita{
+    height: 100vh;
+  border-left: 1px solid #ccc;
+  position: fixed;
+  top: 90%;
+  left: 3%;
+  transform: translateX(-50%);}
+  
+  .section-title-direita {
+    color: white;
+    position: fixed;
+    writing-mode: vertical-rl;
+    text-align: end;
+    left: 2.5%;
+    top: 70%;
+  }

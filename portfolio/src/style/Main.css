@@ -1,0 +1,99 @@
+.main{
+    height:70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* Animação */
+#Center{
+    margin-top: 6rem;
+    margin-right: 16rem;
+}
+.line{
+    width: 9.6em;
+    border-right: 1px solid #eeeeee;
+    color: #c9c0c0;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 10px;
+}#Sobre{ 
+    color: #a5a5a5;
+    width: 600px;
+    margin-bottom: 10px;
+    } #Sobre p{
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 1.2rem;
+    }
+.animation{
+    animation: linkCursor 500ms infinite normal, tipo 5s 0s normal;
+
+}
+@keyframes tipo{
+    from{
+        width: 0;
+    }
+    to{
+        width: 9.6em
+    }
+}
+@keyframes linkCursor{
+    from{
+        border-right-color:#111010;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+.button_animacao{
+    font-family: 'Chakra Petch', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #025c94;
+    height: 50px;
+    width: 200px;
+    font-size: 1.0rem;
+    color: #ffd4dc;
+    background-color: #0099ff00;
+    margin-top: 20px;
+}.button_animacao:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    
+}
+a{
+    height: 50px;
+    width:200px ;
+    text-decoration: none;
+    color: #ffd4dc;
+}
+.form{
+    margin-right: -150px;
+    width: 10%;
+}
+.citacao{
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #087aaf;
+}
+.citacao button {
+    font-family: 'Chakra Petch', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #025c94;
+    width: 90px;
+    font-size: 0.9rem;
+    color: #ffd4dc;
+    background-color: #04111aa2;
+    
+}
+.citacao button:hover{
+    cursor: pointer;
+}
+.citacao h4{
+    font-size: 0.6rem;
+}

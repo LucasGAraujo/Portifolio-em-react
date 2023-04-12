@@ -1,0 +1,97 @@
+.Card {
+    margin-top: 30px;
+    width: 56%;
+    height: 42vh;
+    margin: 40px;
+    display: flex;
+    position: relative;
+    
+}
+
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d4d4d4;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+   
+}
+  
+  .img {
+
+    margin: auto 0;
+    height: 40vh;
+    width: 700px;
+    background-color: #085391;
+  }
+  
+  .Texto {
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto 0;
+    padding: 20px;
+    border-radius: 0px 10px;
+    background-color: #09172c;
+    width: 450px;
+    height: 210px;
+    z-index: 100;
+    margin-left: -320px;
+    display: flex;
+    
+    align-items: center;
+  }
+  
+  .Texto h5 {
+    font-size: 1.0rem;
+    font-weight: 100;
+    color: #ececec;
+  }
+  
+  .textoling {
+    z-index: 120;
+    display: flex;
+    align-items: end;
+  }
+  
+  .textoling ul 
+  {
+    width: 250px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
+  
+  .textoling ul li {
+    color: aliceblue;
+    font-size: 1.0rem;
+    margin: 10px;
+  }
+  
+  img {
+    
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+  }
+  
+  img:hover {
+    cursor: pointer;
+    opacity: 1.0;
+  }
+  .slide-card.slide-in-element {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.slide-card.slide-in-initial {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+.slide-card.slide-in {
+    opacity: 1;
+    transform: translateX(0);
+}

@@ -1,0 +1,59 @@
+.Github{
+    margin-top: 100px;
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.Github_card{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    width: 18%;
+    background-color: #10223d;
+    margin: 0 30px;
+}
+.Github_card:hover{
+    transform: scale(1.1);
+}
+.Github_card ul {
+    list-style: none;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Github_card ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.paste img {
+    opacity: 1;
+    width: 30px;
+    height: 30px;
+}
+.Git img {
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+}
+.h3_repository{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.p_repository{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: #7c7c7c;
+}
+  
+.card_h5{
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
+}

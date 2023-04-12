@@ -1,0 +1,86 @@
+.Container_contato{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+    
+}
+
+.Form_contato{
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right top, #9f9f9f, #949494, #888888, #7d7d7d, #727272);
+    height: 70vh;
+    background-color: aliceblue;
+    width: 80%;
+    margin: 25px;
+}
+.esquerdo_contato{
+    width: 100%;
+    display: block;
+    margin-right: -400px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: initial;
+    width: 70%;
+    height: 40vh;
+    padding-top: 10px;
+
+}
+.email{
+
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+.card_contato{
+    text-align: center;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 5px solid #156999;
+    
+}
+.card_contato img{
+    opacity: 1;
+    width: 100%;
+    filter: blur(0px) brightness(0%) contrast(117%)  grayscale(0%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(84%) sepia(0%) ;
+   
+
+}
+.card_contato:hover img{
+    transform: scale(1.2);
+}
+
+.h3_contato{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: rgb(10, 10, 10);
+    height: 10vh;
+    width: 70%;
+}
+.itens_name_contato{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: end;
+    width: 70%;
+    height: 20vh;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #00000085;
+    font-family: 'Courier New', Courier, monospace;
+}
+.itens_name_contato h6{
+    text-align: center;
+    width: 120px;
+}
