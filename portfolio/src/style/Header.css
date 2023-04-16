@@ -13,7 +13,7 @@
     font-size: 1.0rem;
     display: flex;
     justify-content: space-between;
-    color: #000000;
+    color: #f8f5f5;
     font-weight: 700;
 }
 .header--menu_two{
@@ -22,18 +22,18 @@
     width: 10%;
     list-style: none;
     font-size: 1.8rem;
-    color: #000000;
+    color: #f8f5f5;
     
     
 }
 .header--menu_a{
     text-decoration: none;
-    color: #141414;
+    color: #ffffff;
 }
 .header li:hover{
     cursor: pointer;
     transform: scale(1.1);
-    color: #000000;
+    color: #ffffff;
 }
 .header li:hover::after {
     content: ''; /* adiciona conteúdo vazio após o link */

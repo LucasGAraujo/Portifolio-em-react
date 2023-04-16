@@ -1,29 +1,32 @@
 .linha{
 height: 100vh;
-  border-left: 1px solid #000000;
+  border-left: 1px solid #dddddd;
   position: fixed;
   top: 90%;
   left: 97%;
   transform: translateX(-50%);}
   
   .section-title {
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     position: fixed;
     writing-mode: vertical-rl;
     text-align: end;
     left: 96.5%;
     top: 70%;
   }
+  .section-title a{
+    color: white;
+  }
   .linha-direita{
     height: 100vh;
-  border-left: 1px solid #000000;
+  border-left: 1px solid #fcfcfc;
   position: fixed;
   top: 90%;
   left: 3%;
   transform: translateX(-50%);}
   
   .section-title-direita {
-    color: rgb(3, 3, 3);
+    color: #faf5f5;
     position: fixed;
     writing-mode: vertical-rl;
     text-align: end;
@@ -31,9 +34,6 @@ height: 100vh;
     top: 70%;
   }
   .teste{
-   
     height: 105vh;
-    background-image: url(./img/fundoteste.jpg);
-    
   }
   
