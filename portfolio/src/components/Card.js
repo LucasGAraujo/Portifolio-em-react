@@ -3,13 +3,16 @@ import '../style/Card.css'
 
 
 
-function Card({imagem, linguagem, sobre,titulo}){
+function Card({imagem, linguagem, sobre,titulo,link}){
     return(
         <div className="Card slide-card">
+             
             <h3 className="titulo">{titulo}</h3>
             
             <div className="img">
+            <a href={link}target={"_blank"}>
                 {imagem}
+                </a>
             </div>
             
             <div className="textoling">
@@ -25,7 +28,7 @@ function Card({imagem, linguagem, sobre,titulo}){
             </div>
             
             
-
+           
         </div>
     )
 }

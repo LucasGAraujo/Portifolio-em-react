@@ -1,10 +1,11 @@
 import '../style/CardL.css'
 
 
-function CardL({imagem, linguagem, sobre, titulo}) {
+function CardL({imagem, linguagem, sobre, titulo,link}) {
   
     return (
       <div className="CardL">
+        
         <h3 className='tituloL'>{titulo}</h3>
         <div className="TextoL">
           <h5>{sobre}</h5>
@@ -19,12 +20,16 @@ function CardL({imagem, linguagem, sobre, titulo}) {
           </ul>
           
         </div>
+        
         <div className="imgL">
+        <a href={link}target={"_blank"}>
           {imagem}
+          </a>
         </div>
   
-        
+     
       </div>
+      
     );
   }
   
