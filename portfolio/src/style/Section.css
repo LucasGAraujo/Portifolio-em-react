@@ -1,18 +1,18 @@
 .container_section{
 display: flex;
 flex-direction: row;
+align-items: center;
 justify-content: center;
-height: 90vh;
-margin-top:-120px ;
+height: 70vh;
+margin-top:120px ;
 margin-bottom:180px ;
 
+
 }.cardImage{
-    margin-top: 330px;
-    margin-right: 30rem;
     height: 380px;
     width: 20rem;
     border-radius: 0px 10px 10px 0px;
-    background-color: #025c94a6;
+    background-color: #18191ad0;
 }
 .cardImage img {
     opacity: 0.6;
@@ -26,35 +26,34 @@ margin-bottom:180px ;
     transform: scale(1.2);
 } 
 .section{
-    height: 90vh;
-    margin-top: 150px;
+    height: 80vh;
     display: flex;
     padding-top: 5%;
 flex-direction: column;
 width: 35%;
-margin-left: 26rem;
+margin-left: 6rem;
 }
 h2{
     margin-top: 85px;
-color: antiquewhite;
+color: rgb(0, 0, 0);
 font-size:2.5rem ;
 }
 p{
     
     width: 90%;
     margin-top: 20px;
-    color: #9b9999;
+    color: #4e4e4e;
 font-size:1.2rem ;
 }
 .button_animacao{
     margin-top: 15px;
     font-family: 'Chakra Petch', sans-serif;
     border-radius: 5px;
-    border: 2px solid #025c94;
+    border: 2px solid #000000;
     height: 50px;
     width: 200px;
     font-size: 1.0rem;
-    color: #ffd4dc;
+    color: #000000;
     background-color: #0099ff00;
     margin-top: 20px;
 }.button_animacao:hover{
@@ -66,5 +65,5 @@ a{
     height: 50px;
     width: 200px;
     text-decoration: none;
-    color: #ffd4dc;
+    color: #0a0a0a;
 }

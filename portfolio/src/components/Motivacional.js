@@ -22,7 +22,7 @@ function Motivacional() {
   return (
     <div className="citacao">
       <h3>Fique com essa frase motivacional!</h3>
-      <p>{quote}</p>
+      <p style={{marginBottom:'10px', color:'white'}}>{quote}</p>
       <button onClick={getQuote}>Nova Citação</button>
       <h4>Texto consumido pela api 'https://api.quotable.io'</h4>
     </div>

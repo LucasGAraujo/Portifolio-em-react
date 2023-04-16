@@ -13,7 +13,7 @@
 .tituloL {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #d4d4d4;
+  color: #000000;
   position: absolute;
   top: 0;
   left: 0;
@@ -67,9 +67,10 @@
   }
   
   .textolingL ul li {
-    color: aliceblue;
+    color: rgb(8, 8, 8);
     font-size: 1.0rem;
     margin: 10px;
+    font-weight: 900;
   }
   
   img {

@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body{ 
-  background-image: radial-gradient(circle, #292929, #282a30, #202d35, #133038, #003336);
+  background-image: linear-gradient(to right, #ffffff, #f6f7fd, #eaf0fc, #dbeafa, #cae5f6);
    font-family: 'Chakra Petch', sans-serif;
 }
 

@@ -10,13 +10,16 @@ function App() {
   
   return (
     <>
-    
+    <div className='teste'>
     <Header/>
+    <Main/>
+    </div>
+    
     <div className="section-title"><a href="mailto:lucasdag445@gmail.com">lucasdag445@gmail.com</a></div>
     <hr className="linha" />
     <div className="section-title-direita"></div>
     <hr className="linha-direita" />
-    <Main/>
+    
     <Section/>
     <Projetos/>
     {/* <Contato/> */}

@@ -1,24 +1,16 @@
-@media screen and (max-width:1860px){
-    .cardImage{
-        margin-right: 17rem;
-    }
-    .section{
-        margin-left: 22rem;
-        }
-    }
-@media screen and (max-width:1660px){
-    
+
+@media screen and (max-width:1660px){  
 .p_repository{
-    margin: 15px auto;
+  margin: 15px auto;
     width: 250px;
 }
 .line{
-    font-size: 4.5rem;
-    
+    font-size: 4.5rem; 
 }
 }
 @media screen and (max-width:1350px){
-    .p_repository{
+  
+  .p_repository{
         width: 200px;
     }
     .Github_card ul {
@@ -28,23 +20,11 @@
         font-size: 3.9rem;
     }
 }
-@media screen and (max-width:1300px){
-    .section{
-    margin-left: 19rem;
-    
-    }
-}
 @media screen and (max-width:1200px){
     #Center{
         margin-right: 2rem;
-
     }
-    .section{
-        margin-left: 13rem;
-        
-        }
-        .Github_card{
-           
+        .Github_card{ 
             margin: 0 10px;
         }
 
@@ -81,27 +61,31 @@
         font-size: 30px;
     }
         .cardImage{
-          margin-top: -1150px;
+          margin-top: -900px;
             width: 350px;
             margin-right: 0rem;
         }
         .header{
-            justify-content: space-around;
+            justify-content: space-between;
+        }
+        .header--menu_one{
+          width: 300px;
         }
         .line{
             font-size: 3.0rem;
         }.container_section{
-            height: 100vh;
-            margin-top: 100px;
+            height: 30vh;
+            margin-top: 900px;
             flex-direction: column;
             align-items: center;
         }
         .section{
+          height: 60vh;
             width: 80%;
             margin-left: 0rem;
         }
-        .Projetosh2{
-          margin-top: 200px;
+        .Projetos{
+          margin-top: -200px;
         }
 }
 @media screen and (max-width:900px){
@@ -168,7 +152,7 @@
         width: 45%;
     }
     .section{
-
+      
         margin-top: -300px;
     }
     .container_section{
@@ -181,6 +165,9 @@
 .Projetosh2{
     margin-top: -520px;
     margin-bottom: 30px;
+}
+.header{
+  border: none;
 }
 }
 /* @media screen and (max-width:830px){
@@ -247,7 +234,7 @@
         justify-content: space-around;
     }
     .Projetosh2{
-        margin-top: -150px;
+        margin-top: -50px;
         margin-bottom: 30px;
     }
     .p_repository{

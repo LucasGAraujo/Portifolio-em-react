@@ -3,7 +3,7 @@
 function Animacao(){
     return(
 <div id="Center">
-        <p style={{color:"white"}} className="line animation">Opa,<br/> Lucas Gomes Aqui! =) </p>
+        <p style={{color:"black"}} className="line animation">Opa,<br/> Lucas Gomes Aqui! =) </p>
         <div id="Sobre">
         <p >
             Student of Software Engineering Infnet</p>

@@ -1,13 +1,13 @@
 .linha{
 height: 100vh;
-  border-left: 1px solid #ccc;
+  border-left: 1px solid #000000;
   position: fixed;
   top: 90%;
   left: 97%;
   transform: translateX(-50%);}
   
   .section-title {
-    color: white;
+    color: rgb(0, 0, 0);
     position: fixed;
     writing-mode: vertical-rl;
     text-align: end;
@@ -16,17 +16,24 @@ height: 100vh;
   }
   .linha-direita{
     height: 100vh;
-  border-left: 1px solid #ccc;
+  border-left: 1px solid #000000;
   position: fixed;
   top: 90%;
   left: 3%;
   transform: translateX(-50%);}
   
   .section-title-direita {
-    color: white;
+    color: rgb(3, 3, 3);
     position: fixed;
     writing-mode: vertical-rl;
     text-align: end;
     left: 2.5%;
     top: 70%;
   }
+  .teste{
+   
+    height: 105vh;
+    background-image: url(./img/fundoteste.jpg);
+    
+  }
+  

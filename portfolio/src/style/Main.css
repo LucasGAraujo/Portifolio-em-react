@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 }
 /* Animação */
 #Center{
@@ -12,18 +13,19 @@
 }
 .line{
     width: 9.6em;
-    border-right: 1px solid #eeeeee;
-    color: #c9c0c0;
+    border-right: 1px solid #000000;
+    color: #111111;
     font-family: 'Chakra Petch', sans-serif;
     font-size: 5rem;
     white-space: nowrap;
     overflow: hidden;
     margin-bottom: 10px;
 }#Sobre{ 
-    color: #a5a5a5;
+    color: #030303;
     width: 600px;
     margin-bottom: 10px;
     } #Sobre p{
+        color: #383838;
         font-family: 'Chakra Petch', sans-serif;
         font-size: 1.2rem;
     }
@@ -41,7 +43,7 @@
 }
 @keyframes linkCursor{
     from{
-        border-right-color:#111010;
+        border-right-color:#000000;
     }
     to{
         border-right-color: transparent;
@@ -50,23 +52,23 @@
 .button_animacao{
     font-family: 'Chakra Petch', sans-serif;
     border-radius: 5px;
-    border: 2px solid #025c94;
+    border: 22px solid #020202;
     height: 50px;
     width: 200px;
     font-size: 1.0rem;
-    color: #ffd4dc;
-    background-color: #0099ff00;
+    color: #000000;
+    background-color: #0000006e;
     margin-top: 20px;
 }.button_animacao:hover{
     cursor: pointer;
     opacity: 0.8;
-    
 }
 a{
     height: 50px;
     width:200px ;
     text-decoration: none;
-    color: #ffd4dc;
+    color: #000000;
+
 }
 .form{
     margin-right: -150px;
@@ -79,7 +81,8 @@ a{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #087aaf;
+    color: #fafafa;
+    background-color: #222222;
 }
 .citacao button {
     font-family: 'Chakra Petch', sans-serif;
@@ -87,8 +90,8 @@ a{
     border: 2px solid #025c94;
     width: 90px;
     font-size: 0.9rem;
-    color: #ffd4dc;
-    background-color: #04111aa2;
+    color: #f1f1f1;
+    background-color: #bbbbbba2;
     
 }
 .citacao button:hover{
