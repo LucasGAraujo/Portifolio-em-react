@@ -131,10 +131,7 @@
         font-size: 0.6rem;
     }
     .cardImage{
-        width: 250px;
-        height: 300px;
-        margin-right: 0rem;
-      margin-top: -2950px;
+        display: none;
     }
     .CardL {
         width: 90%;
@@ -182,7 +179,7 @@
         height: 160vh;
 }
 .Projetosh2{
-    margin-top: -220px;
+    margin-top: -520px;
     margin-bottom: 30px;
 }
 }
