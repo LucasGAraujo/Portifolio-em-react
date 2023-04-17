@@ -5,7 +5,11 @@
   box-sizing: border-box;
 }
 body{ 
+
   background-image: linear-gradient(to right top, #441717, #451627, #3d1a38, #2b2245, #03294c);
+
+   background-image: linear-gradient(to right top, #441717, #451627, #3d1a38, #2b2245, #03294c);
+
    font-family: 'Chakra Petch', sans-serif;
 }
 
