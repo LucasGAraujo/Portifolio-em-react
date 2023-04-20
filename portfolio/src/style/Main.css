@@ -5,18 +5,20 @@
     justify-content: center;
     align-items: center;
     
+    
 }
 /* Animação */
 #Center{
     margin-top: 6rem;
     margin-right: 16rem;
+    margin-left: -150px;
 }
 .line{
-    width: 9.6em;
+    width: 9.2em;
     border-right: 1px solid #000000;
     color: #111111;
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 5rem;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 3.5rem;
     white-space: nowrap;
     overflow: hidden;
     margin-bottom: 10px;
@@ -26,7 +28,7 @@
     margin-bottom: 10px;
     } #Sobre p{
         color: #dadada;
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Roboto';
         font-size: 1.2rem;
     }
 .animation{
@@ -75,7 +77,8 @@ a{
     width: 10%;
 }
 .citacao{
-    width: 300px;
+    width: 450px;
+    height: 32vh;
     border-radius: 10px;
     margin-top: 90px;
     display: flex;
@@ -85,6 +88,7 @@ a{
     background-color: #dbdbdb;
 }
 .citacao button {
+    margin-top: 40px;
     font-family: 'Chakra Petch', sans-serif;
     border-radius: 5px;
     border: 2px solid #0d0e0e;

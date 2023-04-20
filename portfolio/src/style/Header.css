@@ -1,20 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 .header{
-    height:10vh;
+    height:8vh;
     width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgb(2, 22, 87) ;
+    border-bottom: 1.5px solid rgb(2, 22, 87) ;
 }
 .header--menu_one{
     width: 25%;
     list-style: none;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: space-between;
-    color: #f8f5f5;
-    font-weight: 700;
+    color: #bff0fc;
+    font-weight: 500;
+    font-family: 'Roboto'
 }
 .header--menu_two{
     display: flex;
@@ -23,6 +25,7 @@
     list-style: none;
     font-size: 1.8rem;
     color: #f8f5f5;
+    font-family: 'Sedgwick Ave Display', cursive;
     
     
 }

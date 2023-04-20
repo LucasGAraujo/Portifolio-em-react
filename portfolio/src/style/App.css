@@ -35,5 +35,8 @@ height: 100vh;
   }
   .teste{
     height: 105vh;
+    background-image: url(./img/clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+    background-size: cover;
+    border-bottom: 1.5px solid rgb(2, 22, 87) ;
   }
   

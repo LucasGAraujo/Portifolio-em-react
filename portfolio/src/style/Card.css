@@ -9,6 +9,7 @@
 
 
 .titulo {
+  font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
     font-weight: bold;
     color: #f3f3f3;
@@ -55,7 +56,7 @@
   
   .textoling ul 
   {
-    width: 250px;
+    width: 350px;
     display: flex;
     list-style: none;
     justify-content: space-around;

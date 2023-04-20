@@ -35,15 +35,16 @@ return(
       
     <h1 className="title">Entre em contato</h1>
     <form className="form" onSubmit={sendEmail}>
-        <label>Digite seu Nome</label>
+      <div className='input_foirm'><label>Digite seu Nome</label>
       <input 
         className="input"
         type="text"
         placeholder="Digite seu nome"
         onChange={(e) => setName(e.target.value)}
           value={name}
-      />
-      <label>Digite seu E-mail</label>
+          
+      /></div>
+    <div className='input_foirm'><label>Digite seu E-mail</label>
       <input 
         className="input"
         type="text"
@@ -51,15 +52,16 @@ return(
         onChange={(e) => setEmail(e.target.value)}
           value={email}
        
-      />
-    <label>Digite seu assunto</label>
+      /></div>
+      <div className='input_foirm'><label>Digite seu assunto</label>
       <textarea 
         className="textarea"
         placeholder="Digite sua mensagem..."
         onChange={(e) => setMessage(e.target.value)}
         value={message}
         
-      />
+      /></div>
+    
 
       <input className="button" type="submit" value="Enviar" />
     </form>
