@@ -223,7 +223,8 @@ margin-left: -80px;
   height: 250px;
 }
 .container_section{
-  height: 120vh;
+  height: 150vh;
+  margin-bottom: 150px;
 }
 
 .section{
