@@ -495,7 +495,7 @@
         }
         .container_section{
           align-items: center;
-          margin-top: 80px;
+          margin-top: 280px;
           height: 210vh;
           justify-content: space-around;
           margin-bottom: -200px;
@@ -526,7 +526,7 @@
       
   @media screen and (max-width:450px){
     .teste{height:100vh;
-    .container_section{margin-top:170px;}
+    .container_section{margin-top:80px;}
     } 
   
   @media screen and (max-width:320px){
