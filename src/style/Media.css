@@ -544,6 +544,8 @@
         .teste{height:120vh;
           margin-bottom:100px;
         }
+        .container_section{
+          margin-top:70px;}
         
       }
       @media screen and (max-width:380px){
