@@ -527,7 +527,9 @@
       
   @media screen and (max-width:450px){
     .teste{height:100vh;
-    .container_section{margin-top:80px;}
+    .container_section{margin-top:80px;
+      padding-bottom:100px;}
+    }
     } 
   
   @media screen and (max-width:320px){
