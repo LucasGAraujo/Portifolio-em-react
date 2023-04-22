@@ -231,7 +231,8 @@ margin-left: -80px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin-top: -300px;
+  margin-bottom: -200px;
 }
 
 .two_section {
@@ -259,12 +260,9 @@ margin-left: -80px;
 .section {
   height: auto;
   width: 100%;
-  margin:  0px 0px  350px 0px;
+  margin: 0;
   
 }
-
-
-
 .form{
     flex-direction: column;
 }
@@ -494,24 +492,17 @@ margin-left: -80px;
         opacity: 1.0;
       }
       .container_section{
-        height:160vh;
+        margin-top: 200px;
+        height: 210vh;
+        justify-content: space-around;
+        margin-bottom: -200px;
       }
       .two_section{
         height: 1200px;
-        padding-top: 140px;
-      }
-      .cardImage{
-        margin-bottom: -300px;
         
-        height: 150px;
-        width: 150px;
       }
-      .cardImage:hover img{
-        transform: scale(1);
-    } 
-
       .section{
-        margin-bottom: -200px;
+        margin-bottom: -300px;
       }
       .Projetos{
         margin-top: -20px;
