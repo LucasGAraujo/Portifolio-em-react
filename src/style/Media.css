@@ -542,7 +542,7 @@
       }
       @media screen and (max-width:500px){
         .teste{height:120vh;
-          margin-bottom:100px;
+          margin-bottom:10px;
         }
         .one_section{margin-top:10px;}
       }
