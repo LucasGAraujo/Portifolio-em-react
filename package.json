@@ -1,4 +1,4 @@
-{
+{"homepage": "C:/Users/lukin/OneDrive/Área de Trabalho/Projetos para finalizar em 2023/Portifolio em React Oficial/portfolio/public/",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@fortawesome/fontawesome-free": "^6.4.0",
@@ -13,6 +13,7 @@
     "react-scripts": "^5.0.1",
     "web-vitals":"3.3.1"
   },
+  
   "scripts": 
   {
     "start": "react-scripts start",
@@ -20,6 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
 },
+
 "eslintConfig": {
   "extends":["react-app",
 "react-app/jest"]
