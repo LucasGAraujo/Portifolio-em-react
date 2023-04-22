@@ -221,7 +221,9 @@
             }
   }
   @media screen and (max-width:900px){
-    
+    .teste{height:110vh;
+      
+    }
     .container{
       border: 1px solid transparent;
     } 
@@ -243,7 +245,7 @@
   .citacao{
       width: 100%;
       margin-top: 20px;
-      height: 37vh;
+      height: 37.4vh;
   }                                                                               
   .container_section {
     flex-direction: column;
