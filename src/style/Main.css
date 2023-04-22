@@ -84,17 +84,17 @@ a{
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: #070707;
-    background-color: #dbdbdb;
+    color: #ffffff;
+    background-color: #000000;
 }
 .citacao button {
-    margin-top: 40px;
+    margin-top: 50px;
     font-family: 'Chakra Petch', sans-serif;
     border-radius: 5px;
-    border: 2px solid #0d0e0e;
+    border: 2px solid #ffffff;
     width: 90px;
     font-size: 0.9rem;
-    color: #f3f1f1;
+    color: #ffffff;
     background-color: #050505a2;
     
 }
