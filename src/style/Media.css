@@ -218,23 +218,50 @@ margin-left: -80px;
     margin-top: 20px;
     height: 37vh;
 }                                                                               
-.cardImage{
-  margin-bottom: -220px;
-  height: 250px;
-}
-.container_section{
-  height: 150vh;
-  margin-bottom: 150px;
+.container_section {
+  flex-direction: column;
+  height: auto;
+  margin: 60px auto 80px;
+  width: 90%;
 }
 
-.section{
+.one_section {
+  height: auto;
   width: 100%;
-  
-  text-align: center ;
-  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-bottom: -150px;
+  margin: 0;
 }
+
+.two_section {
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.cardImage {
+  display: none;
+}
+
+.cardImage img {
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.cardImage:hover img {
+  margin-right: 0;
+  transform: none;
+}
+
+.section {
+  height: auto;
+  width: 100%;
+  margin: 0;
+}
+
 
 
 .form{
