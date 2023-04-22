@@ -546,7 +546,7 @@
         }
         .container_section{
           margin-top:70px;}
-        
+        .one_section{margin-top:100px;}
       }
       @media screen and (max-width:380px){
       .two_section{
