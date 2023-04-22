@@ -540,6 +540,12 @@
           margin-top: -20px;
         }
       }
+      @media screen and (max-width:500px){
+        .teste{height:120vh;
+          margin-bottom:100px;
+        }
+        
+      }
       @media screen and (max-width:380px){
       .two_section{
         margin-top: 100px;
