@@ -8,7 +8,7 @@
 }
 body{ 
   height: 500vh;
-  background-image: linear-gradient(to right bottom, #000000, #251e27, #2d3b52, #0e5f74, #06837d);
+  background-image: radial-gradient(circle, #4c0000, #450808, #3e0f0f, #361414, #2e1717);
   overflow-x: hidden;
    font-family: 'Chakra Petch', sans-serif;
 }
