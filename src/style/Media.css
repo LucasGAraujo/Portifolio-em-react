@@ -597,17 +597,17 @@ label{
       }
       @media screen and (max-width:770px){
         .one_section{
-          margin-top: -1000px;
+          margin-top: -9000px;
         }
         .teste{
           height: 100vh;
           margin-bottom: 0px;
         }
         .two_section{
-          margin-top: -1250px;
+          margin-top: -1050px;
         }
         .Projetosh2{
-          margin-top: -600px;
+          margin-top: -500px;
         }
         .form{
           width: 400px;
@@ -624,17 +624,17 @@ label{
       }
       @media screen and (max-width:450px){
         .two_section{
-          margin-top: -560px;
+          margin-top: -550px;
           margin-left: -20px;
         }
         .teste{
-          height: 110vh;
+          height: 120vh;
         }
         .one_section{
-          margin-top: -560px;
+          margin-top: -550px;
         }
         .Projetosh2{
-          margin-top: -300px;
+          margin-top: -290px;
         }
         .form{
           width: 300px;
@@ -650,12 +650,12 @@ label{
       }
       @media screen and (max-width:394px){
       .two_section{
-        margin-top: -250px;
+        margin-top: -200px;
         margin-left: -20px;
       }
       
       .one_section{
-        margin-top: -400px;
+        margin-top: -350px;
       }
       .Projetosh2{
         margin-top: -200px;
@@ -667,7 +667,7 @@ label{
       @media screen and (max-width:360px){
         .two_section{
           margin-left: 0px;
-          margin-top: -250px;
+          margin-top: -170px;
         }
         .container{
           margin-left: 45px;
