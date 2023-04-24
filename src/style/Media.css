@@ -103,6 +103,9 @@
   .two_section{
     margin-right: 40px;
   }
+  #BUTON{
+    display: none;
+  }
   }
   @media screen and (max-width:1290px){
     .container_section{
@@ -183,9 +186,7 @@
       
         width: 200px;
     }
-    #BUTON{
-      display: none;
-    }
+    
       
   }
   @media screen and (max-width:1000px){
