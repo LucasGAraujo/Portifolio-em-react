@@ -624,6 +624,7 @@ label{
       }
       @media screen and (max-width:450px){
         .two_section{
+          background-color:black;
           margin-top: -470px;
           margin-left: -20px;
         }
@@ -650,6 +651,7 @@ label{
       }
       @media screen and (max-width:394px){
       .two_section{
+        background-color:blue;
         margin-top: -150px;
         margin-left: -20px;
       }
