@@ -267,6 +267,7 @@
       width: 100%;
       margin-top: 20px;
       height: 37vh;
+      background-color:transparent;
   }                                                                               
   .container_section {
     flex-direction: column;
@@ -625,11 +626,11 @@ label{
       @media screen and (max-width:450px){
         .two_section{
           
-          margin-top: -380px;
+          margin-top: -360px;
           margin-left: -20px;
         }
         .teste{
-          height: 120vh;
+          height: 125vh;
         }
         .one_section{
           margin-top: -430px;
