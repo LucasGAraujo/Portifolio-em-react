@@ -624,14 +624,14 @@ label{
       }
       @media screen and (max-width:450px){
         .two_section{
-          margin-top: -500px;
+          margin-top: -530px;
           margin-left: -20px;
         }
         .teste{
           height: 120vh;
         }
         .one_section{
-          margin-top: -550px;
+          margin-top: -500px;
         }
         .Projetosh2{
           margin-top: -100px;
