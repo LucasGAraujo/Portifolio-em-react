@@ -86,8 +86,8 @@ a{
     flex-direction: column;
     color: #ffffff;
     background-color: #000000;
-}
-.citacao button {
+  }
+  .citacao button {
     margin-top: 50px;
     font-family: 'Chakra Petch', sans-serif;
     border-radius: 5px;
@@ -97,10 +97,14 @@ a{
     color: #ffffff;
     background-color: #050505a2;
     
-}
-.citacao button:hover{
+  }
+  .citacao button:hover{
     cursor: pointer;
-}
-.citacao h4{
+  }
+  .citacao h4{
     font-size: 0.6rem;
-}
+  }
+  #codigo {
+    width: 100%;
+    height: 70%;
+  }
