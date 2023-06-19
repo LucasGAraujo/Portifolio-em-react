@@ -27,6 +27,10 @@ function Formulario(){
         },(error) =>{
             alert("error", error)
         })
+        alert('Seu email foi enviado com sucesso, Obrigado')
+        setName('')
+        setEmail('')
+        setMessage('')
     }
 
     
