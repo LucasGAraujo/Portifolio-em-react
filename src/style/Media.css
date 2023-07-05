@@ -187,7 +187,9 @@
       
         width: 200px;
     }
-    
+    .header{
+      width: 90%;
+    }
       
   }
   @media screen and (max-width:1000px){
@@ -667,6 +669,7 @@ label{
       .cardImage{
         margin-bottom: -200px;
       }
+      
       }
       @media screen and (max-width:360px){
         .two_section{
