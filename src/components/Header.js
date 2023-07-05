@@ -3,21 +3,21 @@ import '../style/Header.css'
 function Header(){
     const handleClickSobre = () => {
         window.scrollTo({
-          top: 790,
+          top: 850,
           behavior: "smooth"
         });
       };
     
       const handleClickProjetos = () => {
         window.scrollTo({
-          top: 1600,
+          top: 1850,
           behavior: "smooth"
         });
       };
     
       const handleClickContato= () => {
         window.scrollTo({
-          top: 2800,
+          top: 850,
           behavior: "smooth"
         });
       };
