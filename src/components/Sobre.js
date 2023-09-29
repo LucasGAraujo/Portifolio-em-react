@@ -7,9 +7,11 @@ function Sobre(){
             Sobre Mim
         </h2>
         <p>
-            Olá! Me chamo Lucas Gomes busco por um estagio como desenvolvedor front-end. Nasci no ano de 2003, meu interesse pela programação venho bem do nada,
-            conversando com minha prima ela tocou no assunto, meus olhos brilharam e resolvi pesquisar sobre. Atualmente tenho a honra de fazer parte da graduação de engenharia de software pela infnet.
-            é fazer parte do grupo 4ºAndar. Também atualmente estou desenvolvendo um aplicativo com esse grupo. Atualmente, meu foco principal é evoluir por meu da programação e nunca deixar de adquirir conhecimento</p>      
+            Student of Software Engineering Infnet.
+Movido pela paixão pela tecnologia e determinado a alcançar o sucesso na área.
+
+Atualmente, estou focado em aprofundar meus conhecimentos em C# e Java, enquanto já possuo bases sólidas em React, JavaScript, HTML e CSS, e também uma compreensão básica de React Native.
+Completei com sucesso os blocos de .Net e Front-End Framework, e atualmente estou imerso no bloco de Back-End, explorando Java e C#. Estou ansioso para aplicar e expandir essas habilidades em um ambiente de trabalho real por meio de uma oportunidade de estágio.</p>      
             <div><a href='https://github.com/LucasGAraujo' target={"_blank"} id="BUTON"><button className="button_animacao">Acesse meu gitHub</button></a>
             <a href='https://expo.dev/@lucasgomes445?tab=snacks' target={"_blank"} id="BUTON"><button className="button_animacao">Acesse meu Expo</button></a></div>
          </>
