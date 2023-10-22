@@ -79,47 +79,4 @@
     cursor: pointer;
     opacity: 1.0;
   }
-  /* Estilos para telas médias (tablets) */
-@media (max-width: 768px) {
-    .CardL {
-        width: 80%;
-        height: auto;
-    }
 
-    .imgL {
-        width: 100%;
-        height: auto;
-    }
-
-    .TextoL {
-        width: 100%;
-        margin: 0;
-    }
-
-    .textolingL ul {
-        width: 100%;
-    }
-}
-
-/* Estilos para telas menores (celulares) */
-@media (max-width: 480px) {
-    .CardL {
-        width: 100%;
-        margin: 10px;
-    }
-
-    .imgL {
-        width: 100%;
-        height: auto;
-    }
-
-    .TextoL {
-        width: 100%;
-        margin-right: 0;
-        padding: 10px;
-    }
-
-    .textolingL ul {
-        width: 100%;
-    }
-}
