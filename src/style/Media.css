@@ -1,27 +1,26 @@
 @media screen and (min-width: 2560px) {
   .p_repository {
     margin: 15px auto;
-    width: 280px;
-    text-align: center; /* Adicionei essa propriedade para centralizar o texto */
+    width: 300px;
+    text-align: center;
   }
   .line {
     font-size: 4.5rem;
-    text-align: center; /* Centralizar o texto */
+    text-align: center;
   }
   #Center {
-    margin-left: 0px;
-    margin-right: 0; /* Removendo a margem direita */
+    margin-left: 0;
   }
   .citacao {
-    width: 300px;
-    height: 360px;
-    margin-top: 20px; /* Adicionando espaço superior */
+    width: 360px;
+    height: 420px;
+    margin-top: 20px;
   }
   .Github {
     margin-top: 80px;
     margin-bottom: 120px;
-    height: 55vh;
-    width: 92%;
+    height: 60vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,6 +30,7 @@
     margin-left: -80px;
   }
 }
+
  @media screen and (max-width:1860px){  
   .p_repository{
     margin: 15px auto;
