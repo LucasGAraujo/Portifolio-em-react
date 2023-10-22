@@ -95,3 +95,46 @@
     opacity: 1;
     transform: translateX(0);
 }
+@media (max-width: 768px) {
+    .Card {
+        width: 80%;
+        height: auto;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Texto {
+        width: 100%;
+        margin: 0;
+    }
+
+    .textoling ul {
+        width: 100%;
+    }
+}
+
+/* Estilos para telas menores (celulares) */
+@media (max-width: 480px) {
+    .Card {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Texto {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .textoling ul {
+        width: 100%;
+    }
+}
