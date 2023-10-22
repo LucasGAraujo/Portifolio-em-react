@@ -84,3 +84,63 @@
     text-align: center;
     width: 120px;
 }
+@media (max-width: 768px) {
+    .Container_contato {
+        padding-top: 80px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Form_contato {
+        height: auto;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .esquerdo_contato {
+        display: none;
+    }
+
+    .item {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .email {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .h3_contato {
+        font-size: 1.4rem;
+        height: auto;
+    }
+
+    .itens_name_contato {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        font-size: 1.2rem;
+    }
+}
+
+/* Estilos para telas menores (celulares) */
+@media (max-width: 480px) {
+    .Container_contato {
+        padding-top: 60px;
+    }
+
+    .Form_contato {
+        width: 95%;
+    }
+
+    .card_contato {
+        width: 80px;
+        height: 80px;
+    }
+
+    .itens_name_contato {
+        font-size: 1rem;
+    }
+}
