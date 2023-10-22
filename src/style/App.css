@@ -39,4 +39,16 @@ height: 100vh;
     background-size: cover;
     border-bottom: 1.5px solid rgb(2, 22, 87) ;
   }
-    
+    @media (max-width: 767px) {
+  .linha, .linha-direita {
+    display: none; /* Esconda as linhas nas telas pequenas */
+  }
+
+  .section-title, .section-title-direita {
+    display: none; /* Esconda os títulos nas telas pequenas */
+  }
+
+  .teste {
+    height: auto; /* Redefina a altura para se ajustar ao conteúdo */
+  }
+}
