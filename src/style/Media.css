@@ -1,6 +1,7 @@
 @media screen and (min-width: 2560px) {
   .container_section {
-    display: flex;
+    
+    display: none;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
