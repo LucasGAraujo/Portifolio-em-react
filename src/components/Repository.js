@@ -17,11 +17,12 @@ function Repository(){
                 <CardRepository link={'https://github.com/LucasGAraujo/picpayTest'} nome={'PicpayTest'} sobre={'Projeto em java , test vaga'} lingua={'Java'}/> 
                         <CardRepository link={'https://github.com/LucasGAraujo/SpringBoot_Basquete'} nome={'Spring boot basquete'} sobre={'Projeto em java , test vaga'} lingua={'Java'}/> 
                                 <CardRepository link={'https://github.com/LucasGAraujo/MediavelBattle'} nome={'RPG JAVA'} sobre={'Projeto em java , rpg java'} lingua={'Java'}/> 
-               <CardRepository link={'https://github.com/LucasGAraujo/Api_Rick-and-Morty'} nome={'Api Rick and Morty JAVA'} sobre={'Projeto em java , api java'} lingua={'Java'}/> 
+        </div>
+        <div className='Github'>
+        <CardRepository link={'https://github.com/LucasGAraujo/Api_Rick-and-Morty'} nome={'Api Rick and Morty JAVA'} sobre={'Projeto em java , api java'} lingua={'Java'}/> 
                        <CardRepository link={'https://github.com/LucasGAraujo/CrudComDb_emJava'} nome={'Crud com banco de dados'} sobre={'Projeto em java , Crud com Db java'} lingua={'Java'}/> 
                                <CardRepository link={'https://github.com/LucasGAraujo/PETCURY'} nome={'PETCURY'} sobre={'Projeto em java , VETERINARIO'} lingua={'Java'}/> 
         </div>
-        
     </>
     )
 }
