@@ -10,6 +10,9 @@ function Repository(){
         <CardRepository link={'https://github.com/LucasGAraujo/ContaBancariaC'} nome={'Conta Bancaria'} sobre={'Projeto desenvolvido na Infnet no console'} lingua={'C#'}/>
         <CardRepository link={'https://github.com/LucasGAraujo/RedSocialCompleto'} nome={'Rede Social'} sobre={'Projeto desenvolvido na Infnet'} lingua={'C# Html'}/>
         <CardRepository link={'https://github.com/LucasGAraujo/RedeSocialConsole'} nome={'Rede Social Console'} sobre={'Projeto desenvolvido na Infnet no Console'} lingua={'C#'}/> 
+                
+        </div>
+        <div className='Github'>
                 <CardRepository link={'https://github.com/LucasGAraujo/Projeto-Final-Firjan'} nome={'NAVSOS'} sobre={'Projeto desenvolvido no Firjan App'} lingua={'JavaScript'}/> 
                 <CardRepository link={'https://github.com/LucasGAraujo/picpayTest'} nome={'PicpayTest'} sobre={'Projeto em java , test vaga'} lingua={'Java'}/> 
                         <CardRepository link={'https://github.com/LucasGAraujo/SpringBoot_Basquete'} nome={'Spring boot basquete'} sobre={'Projeto em java , test vaga'} lingua={'Java'}/> 
