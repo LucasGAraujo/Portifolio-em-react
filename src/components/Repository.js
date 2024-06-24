@@ -4,7 +4,7 @@ function Repository(){
     return (
         <div className='Github'>
             <a href='https://github.com/LucasGAraujo' target='_blank' rel='noopener noreferrer'>
-                Visite meu GitHub
+                Vá para o github
             </a>
         </div>
     )
