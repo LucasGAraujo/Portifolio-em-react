@@ -1,69 +1,30 @@
 .Github {
-    margin-top: 80px;
-    margin-bottom: -120px;
-    height: 55vh;
-    width: 74%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.Github_card {
-    border: 2px solid rgb(0, 140, 255);
-    flex-direction: column;
-    border-radius: 10px;
     display: flex;
     justify-content: center;
-    height: 30vh;
-    width: 20%;
-    background-color: #10223d;
-    margin: 0 30px;
-}
-
-.Github_card:hover {
-    transform: scale(1.1);
-}
-
-.Github_card ul {
-    list-style: none;
-    height: 7vh;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    height: 100vh; /* Faz com que o div ocupe toda a altura da tela */
+    background-color: #282c34; /* Cor de fundo para melhor contraste */
 }
 
-.Github_card ul li {
-    margin-left: 30px;
-    margin-right: 30px;
+.Github a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona transições suaves */
 }
 
-.paste img {
-    opacity: 1;
-    width: 30px;
-    height: 30px;
+.Github a:hover {
+    background-color: white;
+    color: #282c34; /* Muda a cor ao passar o mouse */
 }
 
-.Git img {
-    opacity: 1;
-    width: 30px;
-    height: 30px;
+@media (max-width: 600px) {
+    .Github a {
+        font-size: 1em; /* Tamanho do texto menor para telas menores */
+        padding: 8px 16px;
+    }
 }
 
-.h3_repository {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #ffffff;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.p_repository {
-    width: 280px;
-    height: 100px;
-    font-size: 20px;
-    color: #7c7c7c;
-}
-
-.card_h5 {
-    text-align: center;
-    width: 300px;
-    margin-top: 20px;
-}
